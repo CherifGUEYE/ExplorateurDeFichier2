@@ -1,0 +1,42 @@
+<aside class="beau">
+	<div class="vertical-menu">
+	<ul>
+    <a href="#" class="active">EXPLORATEUR</a>
+    <a href="#"><img src="img/creer.png"></a>
+    <ul class="">
+    <a href="#"><form class=""  method="POST">
+    <input type="text" name="faire"  placeholder="Nouveau Dossier">
+    <input type="submit" name="valide" value="Créer">
+    </form></a>
+    </ul>
+    <a href="#"><img src="img/copier.png"></a>
+    <a href="#"><img src="img/renommer"></a>
+    <a href="#"><img src="img/supprimer.png"></a>
+    <a href="#"><img src="img/upload.png"></a>
+    </ul>
+    </div>
+	</aside>
+
+
+
+body
+{
+	width: 100%;
+}
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: black;
+    color: white;
+}
+
